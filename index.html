@@ -1,0 +1,102 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xyrus Comu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>𝓧𝔂𝓻𝓾𝓼</h1>
+            <button class="menu-btn" id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="navigation">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#personagens">Personagens</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#historia">História</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="inicio" class="decorated-section">
+            <div class="hero">
+                <h2>Bem-vindo a Comunidade 𝓧𝓨𝓡𝓤𝓢</h2>
+                <p>Explore as terras místicas dos retardados que permeiam Xyrus.</p>
+                <a href="#sobre" class="btn">Saiba Mais</a>
+            </div>
+        </section>
+
+        <section id="personagens" class="decorated-section">
+            <h2>Figuras Principais</h2>
+            <div class="character-card">
+                <img src="Imagens/Personagens/Vecto.jpeg" alt="Nome do Personagem 1">
+                <h3>Vector</h3>
+                <p>Criador da Comunidade.</p>
+            </div>
+            <div class="character-card">
+                <img src="Imagens/Personagens/Pedro.jpeg" alt="Criador">
+                <h3>Fahre</h3>
+                <p>Criador do Web-Site.</p>
+            </div>
+        </section>
+
+        <section id="galeria" class="decorated-section">
+            <h2>Grupos</h2>
+        <div class="grupos">
+            <section>
+                <h4>Xyrus</h4>
+                <h5>Cinema Xyrus</h5>
+                <h6>Casa dos Prazeres</h6>
+            </section>
+            <div class="gallery">
+                <img src="Imagens/Personagens/x1.jpg" alt="Xyrus">
+                <img src="Imagens/Personagens/x2.jpg" alt="Xyrus Cinema">
+                <img src="Imagens/Personagens/x3.jpeg" alt="Xyrus Casa dos Prazeres">
+                <div><img src="" alt="Imagem 4"></div>
+                <img src="Imagens/Personagens/velda.jpeg" alt="Imagem 5">
+            </div>
+        </div>
+        </section>
+
+        <section id="sobre" class="decorated-section">
+            <h2>Sobre o Mundo de Shinsekai</h2>
+            <p>Uma breve descrição sobre o reino de Xyrus e os mistérios da magia que o cercam.</p>
+        </section>
+
+        <section id="historia" class="decorated-section">
+            <h2>História Principal</h2>
+            <p>Aqui, você pode contar a história principal de Shinsekai, explorando os acontecimentos mais importantes e emocionantes.</p>
+        </section>
+
+        <section id="contato" class="decorated-section">
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+            <div id="mensagem-enviada" style="display: none;">Mensagem enviado!</div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Shinsekai - Um Mundo de Magia</p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: linear-gradient(45deg, #9dc2e6, #005499);
+    color: #333;
+}
+
+header {
+    background-color: #1e2a46;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 4px #000000;
+      
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #66b2ff;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 0;
+    background-color: #66b2ff;
+    box-shadow: 2px 0px 4px #938c8c;
+    color: #fff;
+
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.character-card {
+    display: inline-block;
+    width: 250px;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #84aacf;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 4px #1d5b99;
+}
+
+.character-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 0px 4px #938c8c;
+}
+
+/* Tabela de Contato */
+
+form {          
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -21px;
+}
+
+label, input, textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #1e2a46;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #66b2ff;
+}
+
+/* O restante do código CSS permanece inalterado */
+
+.hero {
+    text-align: center;
+    padding: 5rem 0;
+    background-color: #66b2ff;
+    color: #fff;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 2rem;
+}
+
+section {
+    padding: 4rem 0;
+    text-align: center;
+    color: #333;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #1e2a46;
+    color: #fff;
+    padding: 1.3rem;
+    position: relative;
+    bottom: 0rem;
+    left: 0rem;
+    width: 100%;
+}
+
+

@@ -1,0 +1,87 @@
+/* O restante do código CSS permanece inalterado */
+
+/* Estilos para as seções decoradas */
+.decorated-section {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.decorated-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.decorated-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    z-index: -1;
+}
+
+.decorated-section h2 {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.decorated-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #66b2ff;
+}
+
+/* Estilos para a galeria de imagens */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin-top: 2rem;
+}
+
+.gallery img {
+    max-width: 100%;
+    border-radius: 33px;
+    box-shadow: 0 0 14px #000000;
+}
+
+h4 {
+    position: relative;
+    right: 35rem;
+    top: 9.49rem;
+    font-size: 1.76rem;
+}
+
+h5 {
+    font-size: 1.76rem;
+    position: relative;
+    top: 6.7rem;
+    right: 18rem;
+}
+
+h6 {
+    font-size: 1.76rem;
+    position: relative;
+    top: 4rem;
+}
+
+.grupos {
+    position: relative;
+    top: -8rem;
+}
